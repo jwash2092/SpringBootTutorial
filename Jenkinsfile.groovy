@@ -1,6 +1,6 @@
 #!groovy
 
-Jenkinsfile.groovy (Declarative Pipeline)
+Jenkinsfile.groovy
 pipeline {
     agent { docker { image 'maven:3.3.3' } }
     stages {
