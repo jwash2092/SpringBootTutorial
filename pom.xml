@@ -9,7 +9,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.10.RELEASE</version>
+		<version>1.5.12.RELEASE</version>
 	</parent>
 
 	<dependencies>
@@ -24,12 +24,15 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
 	</dependencies>
 
 	<!-- Properties overrides what is in the parent.  This is changing the Java 1.6 to 1.8 -->
 	<properties>
 		<java.version>1.8</java.version>
-		<spring.version>4.3.18.RELEASE</spring.version>
 	</properties>
 	
 	<build>
